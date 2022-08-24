@@ -338,7 +338,7 @@ class ProposalLayer(KL.Layer):
 
 def log2_graph(x):
     """Implementation of Log2. TF doesn't have a native implementation."""
-    return tf.logging(x) / tf.logging(2.0)
+    return logging(x) / logging(2.0)
 
 
 class PyramidROIAlign(KL.Layer):
